@@ -10,3 +10,12 @@ This project currently does not modify the editor in any way; it just creates an
 The original editor did not have a formal name. For packaging and versioning purposes, this project names it "soedit".
 
 Many thanks to [Michael Ringgaard](https://github.com/ringgaard), the author, for allowing me to re-package his work.
+
+## To install
+1. Download and extract the latest release tarball in a directory.
+2. In that directory, execute:
+   ```bash
+   ./configure
+   make
+   sudo make install
+   ```
