@@ -13,8 +13,10 @@ Many thanks to [Michael Ringgaard](https://github.com/ringgaard), the author, fo
 
 ## To install
 1. Download and extract the latest release tarball in a directory.
-2. In that directory, execute:
+2. Make sure that `autoconf` and `automake` are installed.
+3. In that directory, execute:
    ```bash
+   autoreconf -i
    ./configure
    make
    sudo make install
