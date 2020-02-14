@@ -825,6 +825,10 @@ int getkey() {
           if (ch == 0x31) {
             ch = getchar();
             switch (ch) {
+              case 0x31:
+                return getchar() == 0x7E ? KEY_F1 : KEY_UNKNOWN;
+              case 0x33:
+                return getchar() == 0x7E ? KEY_F3 : KEY_UNKNOWN;
               case 0x3B:
                 ch = getchar();
                 if (ch == 0x32) shift = 1;
