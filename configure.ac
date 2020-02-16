@@ -1,7 +1,7 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_PREREQ([2.69])
+AC_PREREQ([2.63])
 AC_INIT([soedit], [1.0], [rajch@hotmail.com])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 # AC_CONFIG_SRCDIR([src/edit.c])

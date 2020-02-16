@@ -40,3 +40,16 @@ m4/ltsugar.m4
 m4/ltversion.m4
 m4/lt~obsolete.m4
 autom4te.cache
+
+# generated files
+
+Makefile
+config.log
+config.status
+doc/Makefile
+man/Makefile
+src/.deps/
+src/Makefile
+src/edit.o
+src/soedit
+
